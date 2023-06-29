@@ -172,17 +172,18 @@ body{
     font-size: 14px;
   }
   
-  #analyst h2 {
+#analyst h2 {
     font-family: sans-serif;
     text-align: center;
     font-size: 48px;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
   
-  }
-  
-  .image {
+.image {
     display: flex;
     margin-bottom: 50px;
-  }
+}
   
   .image-item img {
     width: 80%;
@@ -239,34 +240,32 @@ body{
   
   }
   
-  .publishing {
+.publishing {
     display: flex;
     align-items: center;
-    border: 1px solid #aaa;
-    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
     margin-top: 20px;
     width: 70%;
     height: 120px;
-  }
+}
   
-  .publishing h3 {
+.publishing h3 {
     font-size: 2.4rem;
     font-weight: 700;
-  }
+}
   
-  #feature {
+#feature {
     background: #EEF8F4;
     margin-left: 20px;
-  }
+}
   
-  .header-feature {
+.header-feature {
     display: flex;
     height: 150px;
     margin-bottom: 40px;
   
-  }
+}
   
-  .h1-feature {
+.h1-feature {
     font-size: 20px;
     font-family: sans-serif;
     width: 400px;
@@ -274,7 +273,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-  }
+}
   
   .we-offer {
     opacity: 0.9;
@@ -296,16 +295,13 @@ body{
   
   }
   
-  .small-collaborate {
-    border: 1px solid #aaa;
-    box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.3);
+.small-collaborate {
     margin-right: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
-  }
+}
   
   .benefit-list {
     display: flex;
@@ -500,3 +496,7 @@ body{
     background-color: #54BD95;
     border-radius: 20px;
   }
+
+main{
+  background: url(6ct82loi.png);
+}
